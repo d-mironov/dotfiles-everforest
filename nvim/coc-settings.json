@@ -1,0 +1,15 @@
+{
+	"coc.preferences.hoverTarget": "float",
+	"suggest.floatEnable": true,
+    "languageserver": {
+        "clangd": {
+            "command": "clangd",
+            "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
+            "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+        },
+        "zls" : {
+            "command": "zls",
+            "filetypes": ["zig"]
+        }
+    }
+}
